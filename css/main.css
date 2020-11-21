@@ -3,13 +3,13 @@ body {
 }
 
 h1 {
-  color: RED;
+  color: red;
   text-align: center;
 }
 
 p {
   color: White;
-  Test-align : center; 
+  Text-align : center; 
   font-family: verdana;
   font-size: 20px;
 }
