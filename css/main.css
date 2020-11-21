@@ -1,6 +1,6 @@
 body {
     margines: automatycznie 60 pikseli;
-    szerokość: 70%;
+    szerokość: 50%;
 }
 nav ul, footer ul {
     rodzina czcionek: „Helvetica”, „Arial”, „Sans-Serif”;
@@ -14,7 +14,7 @@ nav ul li, footer ul li {
 }
 a {
     dekoracja tekstu: brak;
-    kolor: # 999;
+    kolor: # 9985;
 }
 a: hover {
     dekoracja tekstu: podkreślenie;
