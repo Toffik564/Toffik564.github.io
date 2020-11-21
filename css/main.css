@@ -1,0 +1,43 @@
+body {
+    margines: automatycznie 60 pikseli;
+    szerokość: 70%;
+}
+nav ul, footer ul {
+    rodzina czcionek: „Helvetica”, „Arial”, „Sans-Serif”;
+    wypełnienie: 0px;
+    styl listy: brak;
+    font-weight: pogrubienie;
+}
+nav ul li, footer ul li {
+    wyświetlacz: inline;
+    margin-right: 20px;
+}
+a {
+    dekoracja tekstu: brak;
+    kolor: # 999;
+}
+a: hover {
+    dekoracja tekstu: podkreślenie;
+}
+h1 {
+    rozmiar czcionki: 3em;
+    rodzina czcionek: „Helvetica”, „Arial”, „Sans-Serif”;
+}
+p {
+    rozmiar czcionki: 1,5 em;
+    wysokość linii: 1,4em;
+    kolor: # 333;
+}
+footer {
+    border-top: 1px solid # d5d5d5;
+    rozmiar czcionki: .8em;
+}
+
+ul.posts { 
+    margines: 20 pikseli automatycznie 40 pikseli; 
+    rozmiar czcionki: 1,5 em;
+}
+
+ul.posts li {
+    styl listy: brak;
+}
