@@ -24,5 +24,8 @@ footer{
     font-size: 10px;
     color: red;
 }
-    
+img {
+  display: block;
+  margin: 0 auto;
+}
 
