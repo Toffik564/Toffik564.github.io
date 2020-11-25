@@ -89,3 +89,19 @@ ul.posts li {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+.menus ul {
+list-style-type: none
+    padding-left: 0;
+   
+}
+.menu{
+    display: inline-block;
+}
+.menu a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
