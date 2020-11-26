@@ -1,1 +1,26 @@
+body {
+    margin: 0px auto;
+    width: 60%;
+    background-color: #CCCCFF ; 
+}
 
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+h4 {
+    color: white;
+    font-size: 20px;
+  
+}
+p {
+    font-size: 20px;
+    color: white;
+}
+
+footer{
+    font-size: 10px;
+    color: red;
+}
