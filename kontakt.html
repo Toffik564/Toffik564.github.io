@@ -17,11 +17,42 @@
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Zdjecia</a>
     <div class="dropdown-content">
-      <a href="zdjecia.html">Galeria 1</a>
-      <a href="zdjecia2.html">Galeria 2</a>
+      <a href="zdjecia.html">Galeria</a>
+      <a href="zdjecia2.html">Animacja</a>
     </div>
   </li>
 </ul>
 
+    <h2>Responsive Contact Section</h2>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="/w3images/map.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Imie</label>
+        <input type="text" id="fname" name="firstname" placeholder="Twoje imie ...">
+        <label for="lname">Nazwisko</label>
+        <input type="text" id="lname" name="lastname" placeholder="Twoje nazwysko ... ">
+        <label for="country">Państwo</label>
+        <select id="country" name="country">
+          <option value="Polska">Polska</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Temat</label>
+        <textarea id="subject" name="subject" placeholder="Opis" style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
 </body>
 </html>
