@@ -23,7 +23,7 @@
   </li>
 </ul>
 
-    <!-- Galeria -->
+    <!-- Galeria 
     
     <div style="text-align:center">
   <h2>Tabbed Image Gallery</h2>
@@ -59,7 +59,53 @@ function myFunction(imgs) {
   imgText.innerHTML = imgs.alt;
   expandImg.parentElement.style.display = "block";
 }
-</script>
+</script> -->
+    
+    
+     <a-scene background="color: #FAFAFA">
+      <a-assets>
+        <img id="box" src="https://i.imgur.com/mYmmbrp.jpg" />
+        <img id="grass" src="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/10d44c58-bb47-455d-bb44-888d3ea2ea15"/>
+        
+        
+        <a-mixin
+          id="light"
+          geometry="primitive: cylinder; radius: 1"
+          material="color: #FFF; shader: flat"
+          light="color: #DDDDFF; distance: 100; intensity: 3; type: point"
+        ></a-mixin>
+      </a-assets>
+
+      <a-box
+        src="#box"
+        position="0 2 -4"
+        rotation="45 45 0"
+        color="#4CC3D9"
+        shadow
+        animation="property: object3D.position.y; to: 1.2; dir: alternate; dur: 3000; loop: true"
+      ></a-box>
+      <a-plane
+        position="0 0 -4"
+        rotation="-90 0 0"
+        width="4"
+        height="4"
+        color="#7BC8A4"
+        shadow
+      ></a-plane>
+      <a-sky color="#888"></a-sky>
+
+      <a-entity
+        animation="property: rotation; to: 0 0 360; dur: 4000; easing: linear; loop: true"
+      >
+        <a-entity mixin="light" position="0 100 0"></a-entity>
+      </a-entity>
+
+      <a-entity
+        animation="property: rotation; to: 360 0 0; dur: 6000; easing: linear; loop: true"
+      >
+        <a-entity mixin="light" position="0 0 40"></a-entity>
+      </a-entity>
+    </a-scene>
 
     
     
