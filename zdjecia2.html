@@ -77,11 +77,26 @@ function myFunction(imgs) {
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>• A-Frame</title>
+    <title>• Animacja</title>
     <meta name="description" content=>
     <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+          <link href="/css/zdjecia2.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+      <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="newsy.html">Newsy</a></li>
+  <li><a href="kontakt.html">Kontakty</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Zdjecia</a>
+    <div class="dropdown-content">
+      <a href="zdjecia.html">Galeria</a>
+      <a href="zdjecia2.html">Animacja</a>
+    </div>
+  </li>
+</ul>
+      
+      
     <a-scene background="color: #FAFAFA">
       <a-assets>
         <img id="box" src="https://i.imgur.com/mYmmbrp.jpg" />
