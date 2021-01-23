@@ -35,14 +35,6 @@ ul {
   overflow: hidden;
   background-color: #330033;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #330033;
-}
-
 li {
   float: left;
 }
@@ -89,21 +81,10 @@ li.dropdown {
 
 ______________________________________________________________________________________________
 
-
-
-
-
-
-
-
 {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
