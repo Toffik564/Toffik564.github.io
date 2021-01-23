@@ -1,16 +1,15 @@
 body {
     background-image: url(/tlo.jpg); 
-
-h1 {
+}
+    
+ h1 {
   margin: 0;
-  padding: 40px 0;    
-  color: #000000;
+  padding: 50px 0;    
+  color: white;
 }
-h3 {
-    color:#000000 ;
+ h3 {
+    color: white;
     font-size: 30px;
-  
-}
 h4 {
     color: white;
     font-size: 15px;
@@ -28,6 +27,13 @@ footer{
 img {
   display: block;
   margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #330033;
 }
 ul {
   list-style-type: none;
@@ -78,4 +84,16 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
