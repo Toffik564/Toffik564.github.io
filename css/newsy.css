@@ -1,5 +1,9 @@
 body {
     background-image: url(/tlo.jpg); 
+     background-repeat: no-repeat;
+    background-attachment: fixed;  
+     background-size: cover;
+}
 }
     
  h1 {
